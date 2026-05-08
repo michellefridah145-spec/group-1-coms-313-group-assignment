@@ -1,0 +1,50 @@
+1. index.html (Home Page)
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NWU Wellbeing Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1>NWU Student Wellbeing Hub</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="resources.html">Resources</a>
+        <a href="tips.html">Student Life</a>
+        <a href="help.html">Get Help</a>
+    </nav>
+</header>
+<main>
+    <section>
+        <h2>Welcome</h2>
+        <p>
+            This platform is designed to support NWU students with mental wellbeing, stress management, and student life challenges.
+        </p>
+    </section>
+    <section>
+        <h2>How are you feeling today?</h2>
+        <button onclick="checkMood('happy  )">happy</button>
+        <button onclick="checkMood('tired')">Tired</button>
+        <button onclick="checkMood('anxious')">Anxious</button>
+        <button onclick="checkMood('okay')">Okay</button>
+        <p id="moodResult"></p>
+    </section>
+    <section>
+        <h2>Quick Links</h2>
+        <ul>
+            <li><a href="resources.html">Mental Health Resources</a></li>
+            <li><a href="tips.html">Study & Life Tips</a></li>
+            <li><a href="help.html">Get Support</a></li>
+        </ul>
+    </section>
+</main>
+<footer>
+    <p>© 2026 NWU Student Wellbeing Hub</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>

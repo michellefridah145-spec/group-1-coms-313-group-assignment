@@ -1,0 +1,177 @@
+/* Reset default browser spacing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #78848E;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Heading */
+h1 {
+ color: #ffffff
+ margin-bottom: 20px;
+}
+
+/Paragraph /
+p {
+  color: #ffff;
+  margin-bottom: 10px;
+}
+
+/* Image styling */
+img {
+  width: 350px;      /* Increase/decrease size here */
+  height: auto;      /* Keeps proportions */
+  border-radius: 10px;
+  margin: 15px 0;
+}
+
+/* Container (box in the middle) */
+.container {
+  background: white;
+  width: 350px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Form inputs */
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Button hover effect */
+button:hover {
+  background-color: #6c3d91;
+}
+
+/* Links */
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+/* Resource Sections */
+.resource {
+  background-color: #6C3D91;
+  margin: 10px auto;
+  padding: 15px;
+  border-radius: 8px;
+  max-width: 900px;
+  text-align: left;
+  display: flex;
+  align-items: flex-start;
+}
+.resource h2 {
+  color: #FFFFFF;
+  margin-right: 20px;
+}
+.resource p {
+  color: #FFFFFF;
+  line-height: 1.6;
+  font-size: 16px;
+}
+.resource .icon {
+  width: 60px;
+  height: 60px;
+  margin-right: 15px;
+}
+/* Contact Info */
+.contact-info {
+  background-color: #6C3D91; /* NWU Purple */
+  color: #FFFFFF;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 800px;
+}
+
+.contact-info h2 {
+  color: #FFFFFF;
+  margin-bottom: 10px;
+}
+
+.contact-info p {
+  margin: 5px 0;
+  font-size: 16px;
+}
+
+/* Sporting Codes */
+.sporting-codes {
+  background-color: #00889C; /* NWU Teal */
+  color: #FFFFFF;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 800px;
+}
+
+.sporting-codes h2 {
+  margin-bottom: 10px;
+}
+
+.sporting-codes ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+.sporting-codes li {
+  margin: 5px 0;
+}
+/* Contact Info */
+.contact-info {
+  background-color: #6C3D91; /* NWU Purple */
+  color: #FFFFFF;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 800px;
+}
+
+.contact-info h2 {
+  color: #FFFFFF;
+  margin-bottom: 10px;
+}
+
+.contact-info p {
+  margin: 5px 0;
+  font-size: 16px;
+}
+
+/* Sporting Codes */
+.sporting-codes {
+  background-color: #00889C; /* NWU Teal */
+  color: #FFFFFF;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 800px;
+}
+
+.sporting-codes h2 {
+  margin-bottom: 10px;
+}
+
+.sporting-codes ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+.sporting-codes li {
+  margin: 5px 0;
+}
